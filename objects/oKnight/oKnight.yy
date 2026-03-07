@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"oBat",
+  "%Name":"oKnight",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oBat",
+  "name":"oKnight",
   "overriddenProperties":[],
   "parent":{
     "name":"Enemies",
@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sBat",
-    "path":"sprites/sBat/sBat.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

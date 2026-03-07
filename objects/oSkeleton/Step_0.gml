@@ -9,10 +9,10 @@ if (keyboard_check_pressed(vk_space)){
 		speed = knockback_force;
         direction = knock_dir;
 		audio_play_sound(Attack, 100, false)
-		batHealth -=1
+		skeletonHealth -=1
 	}
 }
 
-if (batHealth <= 0){
+if (skeletonHealth <= 0){
 	instance_destroy()
 }
