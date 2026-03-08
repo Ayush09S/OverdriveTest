@@ -6,5 +6,3 @@
 *.yy text eol=lf
 *.yyp text eol=lf
 *.json text eol=lf
-# Re-classify .yy files (for GMS 2 projects)
-*.yy linguist-language=GML
