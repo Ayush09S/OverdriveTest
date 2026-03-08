@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"Walk_sound_please_turn_volume_down",
   "parent":{
-    "name":"Enemies",
-    "path":"folders/Objects/Enemies.yy",
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

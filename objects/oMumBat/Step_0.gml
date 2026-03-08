@@ -1,5 +1,5 @@
 if (object_exists(oPlayer)){
-	move_towards_point(oPlayer.x, y, 0.5);
+	move_towards_point(oPlayer.x, oPlayer.y-64, 0.5);
 }
 
 if (keyboard_check_pressed(vk_space)){
@@ -9,10 +9,10 @@ if (keyboard_check_pressed(vk_space)){
 		speed = knockback_force;
         direction = knock_dir;
 		audio_play_sound(Attack, 100, false)
-		skeletonHealth -=1
+		batHealth -=1
 	}
 }
 
-if (skeletonHealth <= 0){
+if (batHealth <= 0){
 	instance_destroy()
 }

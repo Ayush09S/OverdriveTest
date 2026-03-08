@@ -1,5 +1,5 @@
 if (object_exists(oPlayer)){
-	move_towards_point(oPlayer.x, oPlayer.y-64, 0.5);
+	move_towards_point(oPlayer.x, y, 0.5);
 }
 
 if (keyboard_check_pressed(vk_space)){
