@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"oBat",
+  "%Name":"oMumBat",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oBat",
+  "name":"oMumBat",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enemies",
-    "path":"folders/Objects/Enemies.yy",
+    "name":"Bosses",
+    "path":"folders/Objects/Bosses.yy",
   },
   "parentObjectId":null,
   "persistent":false,
